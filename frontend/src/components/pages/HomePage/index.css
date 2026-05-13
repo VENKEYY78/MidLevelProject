@@ -1,0 +1,77 @@
+.home-page-main-bg-container {
+    min-height: 100vh;
+    background-color: #f8fafc;
+    padding: 50px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.user-details-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-page-welcome-message {
+    font-size: 2.5rem;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.home-page-role {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-bottom: 50px;
+}
+
+.home-page-role span {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.home-page-models-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.students-card-container,
+.courses-card-container,
+.enrollments-card-container {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 35px 25px;
+    width: 320px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+}
+
+.students-card-container:hover,
+.courses-card-container:hover,
+.enrollments-card-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(73, 202, 33, 0.1);
+    border-color: #cbd5e1;
+    background-color: rgb(95, 227, 227);
+}
+
+.home-page-models-container h1 {
+    font-size: 1.6rem;
+    color: #334155;
+    margin-bottom: 20px;
+}
+
+
+.home-page-models-container p span {
+    font-size: 0.95rem;
+    color: #48eb2ff4;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.limited {
+    color: yellow;
+}

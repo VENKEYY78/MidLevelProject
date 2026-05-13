@@ -1,0 +1,32 @@
+/*
+.job-tracker-main-bg-container {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.username-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.submit-button {
+    display: flex;
+}

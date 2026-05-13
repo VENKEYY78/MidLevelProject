@@ -1,0 +1,204 @@
+.rigister-page-main-bg-container {
+    background-color: #897c7c;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rigister-card-bg-container {
+    border: 2px solid rgba(0, 0, 0, 0.129);
+    height: 600px;
+    min-width: 40%;
+    background-color: lch(100% 0.01 296.81);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(73, 71, 71, 0.919);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sign-in-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.register-page-form-container {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.user-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.User-name-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.input-user-name {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-user-name:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.input-user-name::placeholder {
+    color: #9ca3af;
+}
+
+.mail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.mail-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.input-email-id {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-email-id:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.input-email-id::placeholder {
+    color: #9ca3af;
+}
+
+
+.select-role-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+.label-select-role {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+
+.select-container {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s ease;
+
+    height: 42px;
+}
+
+
+.select-container:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+
+.option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.input-password-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+.password-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+
+.input-password {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+.input-password:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.input-password::placeholder {
+    color: #9ca3af;
+}
+
+
+
+.sign-in-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+
+.sign-in-button:hover {
+    background-color: #2563eb;
+}
+
+.sign-in-button:active {
+    transform: scale(0.98);
+}

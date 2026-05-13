@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+mysql-connector-python
+passlib
+python-jose
+bcrypt
+pydantic
+email-validator
+passlib[bcrypt]
+python-jose["Cryptgraphy"]
